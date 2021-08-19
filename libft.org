@@ -1,0 +1,34 @@
+#+TITLE: Libft
+
+* Anottations on what
+
+** Char
+| Name    | Description | Args | Return |
+|---------+-------------+------+--------|
+| isalpha |             |      |        |
+| isdigit |             |      |        |
+| isalnum |             |      |        |
+| isascii |             |      |        |
+| isprint |             |      |        |
+
+** Str
+
+| Name   | Description           | Args   | Return |
+|--------+-----------------------+--------+--------|
+| strlen | Find lenght of string | String | Lenght |
+|        |                       |        |        |
+|        |                       |        |        |
+- strlen | Find lenght of string
+  Receives char*, return string lenght.
+-
+
+** Memory
+| Name   | Description            | Args               | Return |
+|--------+------------------------+--------------------+--------|
+| memset | Write a byte to string | Dest, byte, lenght | Dest   |
+| bzero  |                        |                    |        |
+- memset | Write a byte to string
+  Receives destinations, byte to write, and len, dosen't put null byte, return first argument.
+- bzero  |
+** Numbers
+** Lists
